@@ -1,0 +1,22 @@
+.div-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.div1 {
+  width: 70%;
+  color: rgb(134, 135, 136);
+  font-weight: 540;
+}
+.div1 .checkboxx {
+}
+.div1 label {
+  margin-left: 5px;
+}
+.div2 {
+  width: 30%;
+  text-align: right;
+  color: rgb(161, 139, 248);
+}

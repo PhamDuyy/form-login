@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { RememberMe } from "./components/box/Remeberme";
+import { Button } from "./components/button";
+import { Infor } from "./components/infor";
+import { Input } from "./components/input";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Infor classname={"infor"} />
+      <div>
+        <Input classname={"input1"} type={Text} placehoder={"Username"} />
+      </div>
+      <div>
+        <Input classname={"input2"} type={Text} placehoder={"Password"} />
+      </div>
+      <RememberMe classname={"checkboxx"} type={"checkbox"} />
+      <Button classname={"btn"} />
     </div>
   );
 }
